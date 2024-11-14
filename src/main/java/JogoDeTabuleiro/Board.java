@@ -3,9 +3,9 @@ package JogoDeTabuleiro;
 public class Board { // Tabuleiro
 
     // Atributos
-    private int rows;
-    private int columns;
-    private Piece[][] pieces;
+    private int rows; // linhas
+    private int columns; // colunas
+    private Piece[][] pieces; // Matriz que representa o tabuleiro; cada célula pode armazenar uma peça. Revisar se a estrutura é adequada para suportar funcionalidades futuras.
 
     // Construtor
     public Board(int rows, int columns) {
@@ -39,5 +39,12 @@ public class Board { // Tabuleiro
     // Método para posicionar uma peça no tabuleiro
     public void placePiece(Piece piece, int row, int column) {
         pieces[row][column] = piece;
+    }
+    // metodo
+    public Piece piece (int row, int column){
+        return pieces[row][column]; // retorna a peça
+    }
+    public Piece piece(Posicao posicao){
+        return pieces [posicao.getRow()] [posicao.getColumn()];
     }
 }

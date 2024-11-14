@@ -30,7 +30,7 @@ public class Posicao {
         this.column = column;
     }
     // agora quero imprimir a posicao na tela, logo preciso fazer a funão abaixo de tpString
-    @Override
+    @Override //SOBREPOSIÇÃO
     public String toString(){
         return row + " , " + column;
     }
