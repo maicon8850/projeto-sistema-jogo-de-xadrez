@@ -47,4 +47,9 @@ public class Board { // Tabuleiro
     public Piece piece(Posicao posicao){
         return pieces [posicao.getRow()] [posicao.getColumn()];
     }
+
+    public void placePiece(Piece piece, Posicao posicao) {
+        pieces[posicao.getRow()][posicao.getColumn()] = piece;
+        piece.posicao = posicao;
+    }
 }
