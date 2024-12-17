@@ -1,7 +1,5 @@
 # Sistema de Jogo de Xadrez
 
-Projeto desenvolvido como parte do curso **Programação Orientada a Objetos com Java**.
-
 ## 📌 **Objetivo Geral**
 Aplicar os conceitos de Programação Orientada a Objetos (POO) e boas práticas de desenvolvimento na construção de um sistema de jogo de xadrez, utilizando **Java**.
 
