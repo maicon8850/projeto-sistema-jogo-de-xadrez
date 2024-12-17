@@ -6,9 +6,9 @@ Projeto desenvolvido como parte do curso **Programação Orientada a Objetos com
 Aplicar os conceitos de Programação Orientada a Objetos (POO) e boas práticas de desenvolvimento na construção de um sistema de jogo de xadrez, utilizando **Java**.
 
 ## 🚀 **Tecnologias Utilizadas**
-- **Java** (JDK 8+)
+- **Java**
 - **Git e GitHub**
-- **IDE**: IntelliJ IDEA / Eclipse / NetBeans (à sua escolha)
+- **IDE**: IntelliJ IDEA
 
 ## 📝 **Estrutura do Projeto**
 O projeto está organizado em camadas conforme o padrão de design **Layers Pattern**.
